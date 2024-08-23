@@ -7,7 +7,7 @@
 const multiply = (num1, num2) => {
   const num2ToNum = Number(num2);
 
-  if(!num2ToNum) return 0;
+  if(num2ToNum === NaN) return 0;
 
   return num1 * num2;
 }

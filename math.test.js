@@ -31,3 +31,7 @@ test('multiply "2" * 90 to equal 180', () => {
 test('multiply 6 * "5" to equal 30', () => {
   expect(multiply(6, "5")).toBe(30);
 });
+
+test('multiply 5 * 8 to equal 40', () => {
+  expect(multiply(5, 8)).tobe(44);
+});
